@@ -6,6 +6,7 @@ df = pd.read_csv('pokemon.csv', sep=',')
 #lưu các giá trị trong cột attack và speed vào 2 danh sách
 a=df['Attack']
 b=df['Speed']
+print("oke")
 #in ra các row có attack >52 và speed >80
 for i in range(0,len(df)):
 	if (a[i]>52) and (b[i]>80):
